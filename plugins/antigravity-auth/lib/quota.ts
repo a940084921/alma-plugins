@@ -61,7 +61,7 @@ async function fetchSubscriptionTier(accessToken: string): Promise<SubscriptionT
             headers: {
                 'Authorization': `Bearer ${accessToken}`,
                 'Content-Type': 'application/json',
-                'User-Agent': 'antigravity/1.15.8 windows/amd64',
+                'User-Agent': 'antigravity/windows/amd64',
             },
             body: JSON.stringify({ metadata: { ideType: 'ANTIGRAVITY' } }),
         });
